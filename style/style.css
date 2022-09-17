@@ -1,3 +1,10 @@
+/* courses style  */
+#course-viewAll-btn{
+    display: none;
+}
+
+
+
 
 /* company logo style  */
 
@@ -5,15 +12,30 @@
     margin-right: 2rem; ;
 
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     #company-log{
       display:none;
       
     }
-   
+    /* courses style  */
+    .hidden-course{
+        display: none !important;
+        background-color: red;
     }
+    #course-viewAll-btn{
+        display: block;
+    }
+    #course-see-btn{
+        display: none;
+    }
+  
+    }
+    @media only screen and (max-width: 576px) {
+       #course-div{
+           flex-direction: column !important;
+        }
 
-
+    }
 
 /* footer-style */
 .footer-style a{
@@ -21,3 +43,5 @@
     color: white;
 
 }
+
+
