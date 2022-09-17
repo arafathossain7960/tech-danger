@@ -1,0 +1,23 @@
+
+/* company logo style  */
+
+#company-log img{
+    margin-right: 2rem; ;
+
+}
+@media only screen and (max-width: 768px) {
+    #company-log{
+      display:none;
+      
+    }
+   
+    }
+
+
+
+/* footer-style */
+.footer-style a{
+    text-decoration: none;
+    color: white;
+
+}
